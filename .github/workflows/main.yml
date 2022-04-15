@@ -1,0 +1,32 @@
+name: Release Github Page
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+    name: Build
+    env:
+      my_secret: ${{secrets.commit_secret}}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable' # or: 'beta' or 'master'
+      - run: flutter config --enable-web
+      - run: flutter pub get
+      - run: flutter build web --release
+      - run: |
+          cd build/web
+          git init
+          git config --global user.email haolin.yu@outlook.com 
+          git config --global user.name LinPsPs
+          git remote add origin https://${{secrets.commit_secret}}@github.com/LinPsPs/LinPsPs.github.io.git
+          git checkout -b master
+          git add --all
+          git commit -m "update"
+          git push origin master -f
+      
