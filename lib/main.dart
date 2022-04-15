@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:potrtfolio/UI/Home.dart';
+import 'package:profolio/UI/home.dart';
+import 'package:profolio/data.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const Profolio());
 }
 
-class MyApp extends StatelessWidget {
+class Profolio extends StatelessWidget {
+  const Profolio({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Abdul Momen',
+      title: Data.websiteTitle,
       debugShowCheckedModeBanner: false,
       home: Home(),
     );
