@@ -451,7 +451,7 @@ class _HomePageState extends State<HomePage> {
                                           100,
                                       //color: Colors.white,
                                       child: Text(
-                                        "Designed by Tushar Nikam, Modified by Lin",
+                                        "Made by Lin, Designed by Tushar Nikam, Powered by Flutter with 💙",
                                         style: TextStyle(
                                           color: Colors.white.withOpacity(0.4),
                                           letterSpacing: 1.75,
