@@ -7,7 +7,6 @@ import 'package:profolio/UI/work.dart';
 import 'package:profolio/Widget/appbar_title.dart';
 import 'package:profolio/Widget/custom_text.dart';
 import 'package:profolio/Widget/main_title.dart';
-import 'package:profolio/Widget/OS_images.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 import 'package:profolio/data.dart';
 
@@ -226,7 +225,7 @@ class _HomePageState extends State<HomePage> {
                                     height: size.height * .06,
                                   ),
                                   const CustomText(
-                                    text: "qaqIHmo' jIQuch, my name is ",
+                                    text: "qaqIHmo' jIQuch! My name is ",
                                     textsize: 16.0,
                                     color: Color(0xff41FBDA),
                                     letterSpacing: 3.0,
@@ -271,39 +270,39 @@ class _HomePageState extends State<HomePage> {
                                   ),
 
                                   //get in tuch text
-                                  InkWell(
-                                    onTap: () {
-                                      method.launchEmail();
-                                    },
-                                    hoverColor: const Color(0xff64FFDA)
-                                        .withOpacity(0.2),
-                                    borderRadius: BorderRadius.circular(4.0),
-                                    child: Container(
-                                      alignment: Alignment.center,
-                                      height: size.height * 0.09,
-                                      width: size.width * 0.14,
-                                      decoration: BoxDecoration(
-                                        border: Border.all(
-                                          color: const Color(0xff64FFDA),
-                                        ),
-                                        borderRadius:
-                                            BorderRadius.circular(4.0),
-                                      ),
-                                      child: const Text(
-                                        "Get In Touch",
-                                        style: TextStyle(
-                                          color: Color(0xff64FFDA),
-                                          letterSpacing: 2.75,
-                                          wordSpacing: 1.0,
-                                          fontSize: 15.0,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-
-                                  SizedBox(
-                                    height: size.height * 0.20,
-                                  ),
+                                  // InkWell(
+                                  //   onTap: () {
+                                  //     method.launchEmail();
+                                  //   },
+                                  //   hoverColor: const Color(0xff64FFDA)
+                                  //       .withOpacity(0.2),
+                                  //   borderRadius: BorderRadius.circular(4.0),
+                                  //   child: Container(
+                                  //     alignment: Alignment.center,
+                                  //     height: size.height * 0.09,
+                                  //     width: size.width * 0.14,
+                                  //     decoration: BoxDecoration(
+                                  //       border: Border.all(
+                                  //         color: const Color(0xff64FFDA),
+                                  //       ),
+                                  //       borderRadius:
+                                  //           BorderRadius.circular(4.0),
+                                  //     ),
+                                  //     child: const Text(
+                                  //       "Get In Touch",
+                                  //       style: TextStyle(
+                                  //         color: Color(0xff64FFDA),
+                                  //         letterSpacing: 2.75,
+                                  //         wordSpacing: 1.0,
+                                  //         fontSize: 15.0,
+                                  //       ),
+                                  //     ),
+                                  //   ),
+                                  // ),
+                                  //
+                                  // SizedBox(
+                                  //   height: size.height * 0.20,
+                                  // ),
                                 ],
                               ),
 
@@ -317,7 +316,7 @@ class _HomePageState extends State<HomePage> {
                               ),
 
                               //Where I've Worked
-                              _wrapScrollTag(index: 1, child: Work()),
+                              _wrapScrollTag(index: 1, child: const Work()),
                               SizedBox(
                                 height: size.height * 0.10,
                               ),
@@ -349,9 +348,6 @@ class _HomePageState extends State<HomePage> {
                                         tech3: project['techUsed3'],
                                       ),
                                   ])),
-                              const SizedBox(
-                                height: 6.0,
-                              ),
 
                               //Get In Touch
                               _wrapScrollTag(

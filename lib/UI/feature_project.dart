@@ -155,7 +155,7 @@ class FeatureProject extends StatelessWidget {
                         IconButton(
                           icon: const FaIcon(FontAwesomeIcons.github),
                           color: Colors.white.withOpacity(0.3),
-                          onPressed: ontab(),
+                          onPressed: () => ontab(),
                         ),
                       ],
                     ),
@@ -163,6 +163,9 @@ class FeatureProject extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          const SizedBox(
+            height: 6.0,
           ),
         ],
       ),

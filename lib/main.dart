@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:profolio/UI/home.dart';
+import 'package:profolio/UI/home_page.dart';
 import 'package:profolio/data.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class Profolio extends StatelessWidget {
     return MaterialApp(
       title: Data.websiteTitle,
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: const HomePage(),
     );
   }
 }

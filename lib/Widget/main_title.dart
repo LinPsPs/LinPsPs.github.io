@@ -3,7 +3,10 @@ import 'package:profolio/Widget/custom_text.dart';
 
 class MainTitle extends StatelessWidget {
   final String number, text;
-  const MainTitle({Key? key, required this.number, required this.text}) : super(key: key);
+
+  const MainTitle({Key? key, required this.number, required this.text})
+      : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Row(

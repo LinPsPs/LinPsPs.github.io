@@ -76,7 +76,7 @@ class About extends StatelessWidget {
                 // About me description
                 Wrap(
                   children: [
-                    for(String intro in Data.intro)
+                    for (String intro in Data.intro)
                       CustomText(
                         text: intro,
                         textsize: 16.0,
@@ -84,6 +84,10 @@ class About extends StatelessWidget {
                         letterSpacing: 0.75,
                       ),
                   ],
+                  runSpacing: 30.0,
+                ),
+                SizedBox(
+                  height: size.height * 0.07,
                 ),
                 SizedBox(
                   height: size.height * 0.15,
@@ -95,7 +99,7 @@ class About extends StatelessWidget {
                         height: size.height * 0.15,
                         child: Column(
                           children: [
-                            for(int i = 0; i < 4; i++)
+                            for (int i = 0; i < 4; i++)
                               technology(context, Data.tech[i]),
                           ],
                         ),
@@ -105,7 +109,7 @@ class About extends StatelessWidget {
                         height: size.height * 0.15,
                         child: Column(
                           children: [
-                            for(int i = 4; i < 8; i++)
+                            for (int i = 4; i < 8; i++)
                               technology(context, Data.tech[i]),
                           ],
                         ),

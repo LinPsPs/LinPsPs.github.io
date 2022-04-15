@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:profolio/Widget/custom_text.dart';
 import 'package:profolio/Widget/work_box.dart';
+import 'package:profolio/data.dart';
 
 class Work extends StatefulWidget {
+  const Work({Key? key}) : super(key: key);
+
   @override
   _WorkState createState() => _WorkState();
 }
@@ -22,16 +25,16 @@ class _WorkState extends State<Work> {
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              CustomText(
+              const CustomText(
                 text: "02.",
                 textsize: 20.0,
                 color: Color(0xff61F9D5),
                 fontWeight: FontWeight.w700,
               ),
-              SizedBox(
+              const SizedBox(
                 width: 12.0,
               ),
-              CustomText(
+              const CustomText(
                 text: "Where I've Worked",
                 textsize: 26.0,
                 color: Color(0xffCCD6F6),
@@ -43,7 +46,7 @@ class _WorkState extends State<Work> {
               Container(
                 width: size.width / 4,
                 height: 1.10,
-                color: Color(0xff303C55),
+                color: const Color(0xff303C55),
               ),
             ],
           ),
@@ -54,12 +57,12 @@ class _WorkState extends State<Work> {
             children: [
               Expanded(
                 flex: 1,
-                child: Container(
+                child: SizedBox(
                     height: size.height * 1.2,
                     //color: Colors.indigo,
                     child: Stack(
                       children: [
-                        Center(
+                        const Center(
                           child: VerticalDivider(
                             color: Color(0xff64FFDA),
                             thickness: 1.75,
@@ -68,47 +71,27 @@ class _WorkState extends State<Work> {
                             endIndent: 10,
                           ),
                         ),
-                        Container(
-                          child: Center(
-                              child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
+                        Center(
+                            child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            for (Map<String, dynamic> workIcon
+                                in Data.worksIcon)
                               CircleAvatar(
-                                backgroundColor: Colors.pink,
-                                child: FaIcon(FontAwesomeIcons.laptopHouse,
-                                    color: Colors.white),
+                                backgroundColor: workIcon['bColor']!,
+                                child: FaIcon(workIcon['icon']!,
+                                    color: workIcon['fColor']),
                               ),
-                              CircleAvatar(
-                                backgroundColor: Colors.red,
-                                child: FaIcon(FontAwesomeIcons.freeCodeCamp,
-                                    color: Colors.white),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.brown,
-                                child: FaIcon(FontAwesomeIcons.laptopCode,
-                                    color: Colors.white),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.deepOrange,
-                                child: FaIcon(FontAwesomeIcons.coffee,
-                                    color: Colors.white),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.deepPurple,
-                                child: FaIcon(FontAwesomeIcons.dev,
-                                    color: Colors.white),
-                              ),
-                            ],
-                          )),
-                        )
+                          ],
+                        ))
                       ],
                     )),
               ),
               Expanded(
                   flex: 4,
-                  child: Container(
+                  child: SizedBox(
                     height: size.height * 1.2,
-                    child: WorkBox(),
+                    child: const WorkBox(),
                   ))
             ],
           )
