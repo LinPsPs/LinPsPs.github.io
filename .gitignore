@@ -256,6 +256,9 @@ obj/
 *.iws
 /out/
 
+# Disable IDEA
+.idea
+
 # User-specific configurations
 .idea/caches/
 .idea/libraries/
