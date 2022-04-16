@@ -35896,7 +35896,7 @@ A.G6.prototype={}
 A.EW.prototype={
 L(a,b){var s,r,q,p,o=null
 A.a8m(b)
-s=10
+s=5
 r=1.75
 q=10
 p=10
@@ -53824,7 +53824,7 @@ case 3:return A.Z(null,r)}})
 return A.a_($async$ky,r)}}
 A.yh.prototype={
 L(a,b){var s,r,q,p,o,n,m=null,l=t.w,k=b.U(l).f.a,j=k.b,i=k.a,h=i/2-100,g=t.E,f=A.fh(A.a([B.xK,B.jw,B.xO,A.b4(m,m,i*0.01),A.cZ(m,m,B.m,B.e9,m,m,m,1.1,m,m,m,m,i/4)],g),B.z,B.D,B.X),e=j*0.07,d=A.b4(m,e,m),c=A.a([],g)
-for(s=$.ai7,r=0;r<2;++r)c.push(new A.cw(s[r],16,B.x4,0.75,m,m))
+for(s=$.ai7,r=0;r<3;++r)c.push(new A.cw(s[r],16,B.x4,0.75,m,m))
 c=A.vs(B.bX,c,30)
 e=A.b4(m,e,m)
 s=j*0.15
@@ -53892,7 +53892,7 @@ a3=a-82
 q=A.b4(A.dN(A.a([A.AW(B.ea,B.kH,16,new A.a_A(e)),A.AW(B.ea,B.ye,16,new A.a_B(e)),A.AW(B.ea,B.yB,16,new A.a_C(e)),new A.cM(B.kE,A.cZ(d,d,B.m,A.ao(102,158,158,158),d,d,d,q,d,d,d,d,2),d)],a2),B.z,B.ds),a3,a0*0.09)
 a1=A.b(e.e,"_autoScrollController")
 p=a*0.04
-o=A.dN(A.a([A.b4(d,a*0.06,d),B.xM,B.dK,new A.cw("Lin.",68,B.c2,d,B.em,d),B.EW,new A.cw("I program things.",56,A.ao(153,204,214,246),d,B.N,d),A.b4(d,p,d),A.vs(B.bX,A.a([A.hq("I want to say something, but I don't have much things to say. :P",d,d,B.FY,d,d)],a2),0),A.b4(d,a*0.12,d)],a2),B.c3,B.D)
+o=A.dN(A.a([A.b4(d,a*0.06,d),B.xM,B.dK,new A.cw("Haolin Yu.",68,B.c2,d,B.em,d),B.EW,new A.cw("I program things.",56,A.ao(153,204,214,246),d,B.N,d),A.b4(d,p,d),A.vs(B.bX,A.a([A.hq("I want to say something, but I don't have much things to say. :P",d,d,B.FY,d,d)],a2),0),A.b4(d,a*0.12,d)],a2),B.c3,B.D)
 n=e.oo(B.tq,0)
 m=A.b4(d,a*0.02,d)
 l=e.oo(B.Kj,1)
@@ -53908,12 +53908,12 @@ f=i.i(0,"projectTitle")
 f.toString
 p.push(new A.An(h,f,g,i.i(0,"techUsed1"),i.i(0,"techUsed2"),i.i(0,"techUsed3"),new A.a_D(e,i),d))}p=e.oo(A.dN(p,B.z,B.D),2)
 j=a5.U(c).f
-h=A.vs(B.bX,A.a([A.hq("That's all. Thanks~",d,d,A.fs(d,d,A.ao(102,255,255,255),d,d,d,d,d,d,d,d,17,d,d,d,d,!0,d,0.75,d,d,d,d,d,d),B.dL,d)],a2),0)
+h=A.vs(B.bX,A.a([A.hq("Interested in my experiences? Have any questions about this website? Feel free to shot me a message!",d,d,A.fs(d,d,A.ao(102,255,255,255),d,d,d,d,d,d,d,d,17,d,d,d,d,!0,d,0.75,d,d,d,d,d,d),B.dL,d)],a2),0)
 g=A.yC(6)
 j=A.b4(A.dN(A.a([B.xI,B.rQ,B.xJ,B.rQ,h,B.EV,A.a4M(!1,!0,A.a4q(A.cZ(B.V,B.D0,B.m,d,d,new A.dK(B.cO,d,d,A.yC(6),d,d,B.az),d,a*0.09,B.kG,d,d,d,a0*0.1),B.bt,4,new A.d6(g,B.q)),d,!0,d,d,d,d,d,d,d,d,d,new A.a_E(e),d,d)],a2),B.z,B.Ca),a*0.68,j.a.a-100)
 a=a5.U(c).f
 g=a5.U(c).f
-g=A.a([new A.E8(new A.Xh(A.a([o,n,m,l,k,p,e.oo(A.dN(A.a([j,A.cZ(B.V,A.hq("Designed by Tushar Nikam, Modified by Lin",d,d,A.fs(d,d,A.ao(102,255,255,255),d,d,d,d,d,d,d,d,14,d,d,d,d,!0,d,1.75,d,d,d,d,d,d),d,d),B.m,d,d,d,d,a.a.b/6,d,d,d,d,g.a.a-100)],a2),B.z,B.D),3)],a2),A.av([null,0],t.st,t.S)),d)],a2)
+g=A.a([new A.E8(new A.Xh(A.a([o,n,m,l,k,p,e.oo(A.dN(A.a([j,A.cZ(B.V,A.hq("Made by Lin, Designed by Tushar Nikam, Powered by Flutter with \ud83d\udc99",d,d,A.fs(d,d,A.ao(102,255,255,255),d,d,d,d,d,d,d,d,14,d,d,d,d,!0,d,1.75,d,d,d,d,d,d),d,d),B.m,d,d,d,d,a.a.b/6,d,d,d,d,g.a.a-100)],a2),B.z,B.D),3)],a2),A.av([null,0],t.st,t.S)),d)],a2)
 a=A.ri(A.b4(new A.cM(B.bx,new A.zM(g,B.aN,!1,a1,!1,d,d,!1,d,0,d,d,B.aR,B.Dx,d,B.ab,d),d),a3,d),1)
 a0=a5.U(c).f
 c=a5.U(c).f
@@ -53950,7 +53950,7 @@ return A.Z(null,r)}})
 return A.a_($async$$1,r)},
 $S:322}
 A.a_z.prototype={
-$0(){this.a.d.ih("")},
+$0(){this.a.d.ih("https://drive.google.com/file/d/1uhzft95VYHVu5wl2kYeK3hc0AkBLQ5Mm/view?usp=sharing")},
 $S:0}
 A.a_A.prototype={
 $0(){this.a.d.ih("https://github.com/LinPsPs")},
@@ -54009,7 +54009,7 @@ A.F2.prototype={
 L(a,b){var s=null,r=A.hq(this.c,s,s,B.In,s,s),q=B.c.at(127.5)
 return A.dN(A.a([r,B.dK,A.hq(this.d,s,s,A.fs(s,s,A.ao(q,204,214,246),s,s,s,s,s,s,s,s,13,s,B.kL,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.dK,A.hq(this.e,s,s,A.fs(s,s,A.ao(q,204,214,246),s,s,s,s,s,s,s,s,12,s,B.N,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.E),B.c3,B.D)}}
 A.CF.prototype={
-L(a,b){return new A.t8(B.yo,"Lin",!1,null)}}
+L(a,b){return new A.t8(B.yo,"Lin's website",!1,null)}}
 A.Mi.prototype={
 $1(a){return a.a},
 $S:44}
@@ -59048,9 +59048,9 @@ $.CJ=A.av([B.bd,B.dn,B.bf,B.dp,B.bc,B.dl,B.bO,B.dm,B.bb,B.dj,B.bN,B.dk,B.be,B.dq
 $.aln=!1
 $.af=null
 $.bh=1
-$.ai7=A.a(["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Duis ultricies lacus sed turpis tincidunt id aliquet. Quisque id diam vel quam. Semper risus in hendrerit gravida rutrum quisque. Nisl rhoncus mattis rhoncus urna neque viverra justo. Et malesuada fames ac turpis egestas integer eget. Id semper risus in hendrerit gravida rutrum quisque non. Gravida neque convallis a cras semper auctor neque vitae. Massa massa ultricies mi quis hendrerit dolor magna. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Leo in vitae turpis massa sed elementum tempus egestas sed. Mi eget mauris pharetra et ultrices neque ornare. Semper quis lectus nulla at volutpat diam. Hendrerit gravida rutrum quisque non tellus orci ac. Morbi enim nunc faucibus a pellentesque. Malesuada pellentesque elit eget gravida cum. Mattis pellentesque id nibh tortor id aliquet.","Purus ut faucibus pulvinar elementum. In cursus turpis massa tincidunt dui ut ornare. Diam quis enim lobortis scelerisque. Amet tellus cras adipiscing enim eu turpis. Ultricies lacus sed turpis tincidunt id. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Risus pretium quam vulputate dignissim suspendisse in est. Pharetra pharetra massa massa ultricies mi quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Tristique risus nec feugiat in fermentum posuere urna. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Nunc non blandit massa enim. Accumsan lacus vel facilisis volutpat est velit egestas. Turpis egestas pretium aenean pharetra magna ac placerat. At elementum eu facilisis sed odio morbi quis. Adipiscing bibendum est ultricies integer quis auctor elit. Malesuada nunc vel risus commodo viverra. In eu mi bibendum neque egestas congue."],t.s)
+$.ai7=A.a(["Haolin is currently a graduate student at Cornell University majoring in computer science. His research interest is operating system and cloud computing. He received my bachelor's degree from Stony Brook University in two majors - Computer Science and Applied Mathematics.","Haolin is a curious person who enjoys figuring out the building blocks of the programming world, and rearranging them to build something even better. Don't Reinvent the Wheel, unless you plan on learning more about wheels.","When Haolin is at leisure, you could find him coding things, draw pixel art, hiking, playing War Thunder with friends, or napping."],t.s)
 $.a8i=A.a(["Dart","Flutter","Google Cloud","Java","C","Linux","MongoDB","Git"],t.s)
-$.ai6=A.a(["About","Experience","Project","Contact Us"],t.s)
+$.ai6=A.a(["About","Experience","Project","Contact"],t.s)
 $.ai8=function(){var s=t.N
 return A.a([A.av(["imageName","yelp.png","githubLink","https://github.com/LinPsPs/Yelp-Crawler","projectDesc","This is a crawler that can automatically download New York restaurant information on Yelp and save as a .csv file.","projectTitle","Yelp Crawler","techUsed1","Python","techUsed2","BeautifulSoup","techUsed3","Request"],s,s),A.av(["imageName","parking.jpg","githubLink","https://github.com/LinPsPs/SBU-Parking","projectDesc","Our goal is to detect the number of remaining parking slots in a parking lot. The program will detect the number of cars in a parking lot picture and compare it with the total parking slots. Show the number in the website.","projectTitle","OpenLots","techUsed1","Python","techUsed2","OpenCV","techUsed3","React"],s,s),A.av(["imageName","cgan.jpg","githubLink","https://github.com/LinPsPs/GUI_for_cGAN","projectDesc","Automatically colorize anime sketches.","projectTitle","Anime Sketch Colorization","techUsed1","Python","techUsed2","cGAN"],s,s)],A.O("p<ae<o,o>>"))}()
 $.ai9=function(){var s="Research Assistant",r=t.N
