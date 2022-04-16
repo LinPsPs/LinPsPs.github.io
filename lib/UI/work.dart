@@ -66,7 +66,8 @@ class _WorkState extends State<Work> {
                           child: VerticalDivider(
                             color: Color(0xff64FFDA),
                             thickness: 1.75,
-                            width: 10,
+                            // width: 10,
+                            width: 5,
                             indent: 10,
                             endIndent: 10,
                           ),

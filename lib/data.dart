@@ -3,14 +3,15 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Data {
   // For easy maintainance.
-  static String websiteTitle = 'Lin';
+  static String websiteTitle = 'Lin\'s website';
 
   static List<String> intro = [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Duis ultricies lacus sed turpis tincidunt id aliquet. Quisque id diam vel quam. Semper risus in hendrerit gravida rutrum quisque. Nisl rhoncus mattis rhoncus urna neque viverra justo. Et malesuada fames ac turpis egestas integer eget. Id semper risus in hendrerit gravida rutrum quisque non. Gravida neque convallis a cras semper auctor neque vitae. Massa massa ultricies mi quis hendrerit dolor magna. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Leo in vitae turpis massa sed elementum tempus egestas sed. Mi eget mauris pharetra et ultrices neque ornare. Semper quis lectus nulla at volutpat diam. Hendrerit gravida rutrum quisque non tellus orci ac. Morbi enim nunc faucibus a pellentesque. Malesuada pellentesque elit eget gravida cum. Mattis pellentesque id nibh tortor id aliquet.',
-    'Purus ut faucibus pulvinar elementum. In cursus turpis massa tincidunt dui ut ornare. Diam quis enim lobortis scelerisque. Amet tellus cras adipiscing enim eu turpis. Ultricies lacus sed turpis tincidunt id. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Risus pretium quam vulputate dignissim suspendisse in est. Pharetra pharetra massa massa ultricies mi quis. Viverra nibh cras pulvinar mattis nunc sed blandit. Tristique risus nec feugiat in fermentum posuere urna. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Nunc non blandit massa enim. Accumsan lacus vel facilisis volutpat est velit egestas. Turpis egestas pretium aenean pharetra magna ac placerat. At elementum eu facilisis sed odio morbi quis. Adipiscing bibendum est ultricies integer quis auctor elit. Malesuada nunc vel risus commodo viverra. In eu mi bibendum neque egestas congue.'
+    '''Haolin is currently a graduate student at Cornell University majoring in computer science. His research interest is operating system and cloud computing. He received my bachelor's degree from Stony Brook University in two majors - Computer Science and Applied Mathematics.''',
+    '''Haolin is a curious person who enjoys figuring out the building blocks of the programming world, and rearranging them to build something even better. Don't Reinvent the Wheel, unless you plan on learning more about wheels.''',
+    '''When Haolin is at leisure, you could find him coding things, draw pixel art, hiking, playing War Thunder with friends, or napping.'''
   ];
 
-  static String name = 'Lin';
+  static String name = 'Haolin Yu';
   static String introTitle = 'I program things.';
   static String introSubTitle =
       'I want to say something, but I don\'t have much things to say. :P';
@@ -34,10 +35,10 @@ class Data {
     'About',
     'Experience',
     'Project',
-    'Contact Us'
+    'Contact'
   ];
 
-  static String resume = '';
+  static String resume = 'https://drive.google.com/file/d/1uhzft95VYHVu5wl2kYeK3hc0AkBLQ5Mm/view?usp=sharing';
 
   static String phone = '6319945972';
   static String email = 'haolin.yu@outlook.com';
@@ -132,5 +133,5 @@ class Data {
     },
   ];
 
-  static String epilogue = 'That\'s all. Thanks~';
+  static String epilogue = 'Interested in my experiences? Have any questions about this website? Feel free to shot me a message!';
 }
